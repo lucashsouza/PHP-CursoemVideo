@@ -1,15 +1,13 @@
 <html>
-<head> <title> Variables in PHP </title>
+<head> <title> Variaveis em PHP </title>
 <link rel='stylesheet' href='_css/estilo.css'> 
 </head>
 <body>
-	<div>
-		
+	<div>	
 		<?php
-			$age = 18;
-			$name = 'Lucas';
-
-			echo "$name have $age Years old.";
+			$idade = 18;
+			$nome = 'Lucas';
+			echo "$nome have $idade Years old.";
 		?>
 
 	</div>
