@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<link rel='stylesheet' href='_css/estilo.css'>
+	<meta charset="UTF-8"/>
+	<title>Formulário</title> 
+</head>
+<body>
+<div>
+	// Formulario html com integração com php
+
+	<form method="get" action="formulario.php">
+		Nome: <input type="text" name="nome" /><br/><br/>
+		Ano de Nascimento: <input type="number" name="ano"/><br/>
+		<br/><fieldset><legend>Sexo</legend>
+			<input type="radio" name="sexo" id="masc" value="Masculino" checked/>
+			<label for="masc">Masculino</label><br/>
+			<input type="radio" name="sexo" id="fem" value="Feminino" />
+			<label for="fem">Feminino</label><br/>
+		</fieldset><br/>
+		<input type="submit" value="Enviar"/>
+	</form>	
+</div>
+</body>
+</html>
