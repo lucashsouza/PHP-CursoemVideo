@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="_css/estilo.css"/>
+	<meta charset="utf-8"/>
+	<title> Dia da Semana </title>
+</head>
+<body>
+	
+	<!-- 
+		Programa com a finalidade de informar ao usuário se ele deve ou não estudar dependendo do dia da semana. Padrão: Segunda-Sexta = Estudar, Sabado-Domingo = Descansar.
+		Integra HTML e PHP.
+	-->
+
+<div>
+	<label><b><center> Qual é o dia da semana? </center></b></label>
+	<form method="get" action="DiaDaSemana.php">
+
+	<fieldset><legend><b>Dia útil</b></legend>				<!-- Dia de Semana -->
+	<input type="radio" name="ds" value="2">
+	<label for="segunda">Segunda-Feira</label><br/>
+	<input type="radio" name="ds" value="3">
+	<label for="terca">Terça-Feira</label><br/>
+	<input type="radio" name="ds" value="4">
+	<label for="quarta">Quarta-Feira</label><br/>
+	<input type="radio" name="ds" value="5">
+	<label for="quinta">Quinta-Feira</label><br/>
+	<input type="radio" name="ds" value="6">
+	<label for="sexta">Sexta-Feira</label><br/>
+	</fieldset>
+
+	<fieldset><legend><b>Fim de semana</b></legend>			<!-- Final de Semana -->
+	<input type="radio" name="ds" value="7">
+	<label for="sabado">Sábado</label>
+	<input type="radio" name="ds"value="8">
+	<label for="domingo">Domingo</label>
+	</fieldset>
+
+	<center><input type="submit" class="botao" value="Analisar" size=5/></center>
+	</form>	
+</div>
+</body>
+</html>
