@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="_css/estilo.css"/>
+	<meta charset="utf-8"/>
+	<title> </title>
+</head>
+<body>
+
+	<!-- Contador personalizado, que envia os valores atraves de um formulário ao PHP, que realiza os processos e exibe os valores solicitados. -->
+
+<div>
+	<form method="get" action="02.php"> 									<!-- formulário -->
+		<fieldset><legend>Contador Personalizável</legend>
+			<label for="ini">Início:</label>								<!-- var inicio -->
+			<input type="number" name="inicio" min='0' max='1000'><br/>
+	
+			<label for='fin'>Final:</label>									<!--var final -->
+			<input type="number" name="final" min='0' max='1000'><br/>
+			
+			Incremento: 													<!--var incremento-->
+			<select name='incremento'>
+				<option>01</option>
+				<option>02</option>
+				<option>05</option>
+				<option>10</option>
+			</select><br/>
+			
+			<input type="submit" value="Enviar"/>							<!-- enviar -->
+		</fieldset>
+
+</div>
+</body>
+</html>
