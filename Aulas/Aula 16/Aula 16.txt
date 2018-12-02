@@ -1,0 +1,4 @@
+# Aula 16 - PHP
+
+# Funções string (pt. 1): 
+https://www.youtube.com/watch?v=o3y8af8rSKM
