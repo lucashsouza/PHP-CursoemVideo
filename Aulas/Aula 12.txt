@@ -1,4 +1,0 @@
-# Aula 12 - PHP
-
-# Estrutura de repetição While:
-https://www.youtube.com/watch?v=6QymvmX3YJU
