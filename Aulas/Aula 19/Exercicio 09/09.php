@@ -14,7 +14,7 @@
 
 			print_r($v);
 
-			// Ordena por chaves (descente)
+			// Ordena por chaves (decrescente)
 			krsort($v);
 
 			print_r($v);
